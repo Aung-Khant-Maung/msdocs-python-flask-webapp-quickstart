@@ -15,7 +15,7 @@ def index():
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'),
-                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
+                               'favicon.ico', mimetype='image/viber_image_2025-05-09_00-59-05-633.jpg')
 
 @app.route('/hello', methods=['POST'])
 def hello():
